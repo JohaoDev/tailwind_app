@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johao70/tailwind_app.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johao70/tailwind_app/issues"
+  },
+  "homepage": "https://github.com/johao70/tailwind_app#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.4"
+  }
 }
