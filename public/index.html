@@ -6,7 +6,7 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="build/tailwind.css">
 </head>
-<body>
+<body class="bg-gray-100 h-full text-gray-600 flex flex-col">
     <header class="flex items-center justify-between px-4 py-3 bg-gray-900">
         <div>
             <h3 class="text-white">BootstrapDashboard <i class="fas fa-stream"></i></h3>
@@ -23,15 +23,108 @@
         </div>
     </header>
 
-    <div class="bg-yellow-500 h-full w-56 top-auto">
-        <div class="flex">
-            <img class="h-16" src="./img/1.png" alt="user">
-            <h2>Mark</h2>
-            <h3>Web Designer</h3>
+    <div class="flex">
+        <div class="bg-white p-8 w-64 border">
+            <div class="flex-1">
+                <img class="w-12 h-12 rounded-full float-left" src="./img/1.png" alt="user">
+                <h3 class="text-center text-gray-900 font-bold">Mark Stephen</h3>
+                <h5 class="text-center text-gray-500">Web Designer</h5>
+            </div>
+                <p class="p-6 text-gray-500 uppercase">main</p>
+            <ul>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        <i class="fas fa-home"></i>&nbsp;Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        <i class="fas fa-list-ol"></i>&nbsp;Dropdown
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        <i class="fas fa-table"></i>&nbsp;Tables
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        <i class="fas fa-chart-pie"></i>&nbsp;Charts
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        <i class="fas fa-align-left"></i>&nbsp;Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        <i class="fas fa-sign-in-alt"></i>&nbsp;Login Page
+                    </a>
+                </li>
+            </ul>
+
+            <p class="p-6 text-gray-500 uppercase">extras</p>
+
+            <ul>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        Demo
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        Demo
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                        Demo
+                    </a>
+                </li>
+            </ul>
         </div>
 
-        <div>
-            <ul>Home</ul>
+        <div class="flex-1 md:mt-1">
+            <div class="bg-white p-2 shadow text-xl text-white">
+                <h1 class="text-2xl text-gray-900 font-bold">Dashboard</h1>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full h-full p-8">
+                    <!--Metric Card-->
+                    <div class="bg-white border rounded shadow p-8">
+
+                        <div class="flex items-center">
+
+                            
+                            <div class="rounded p-3 bg-purple-600"></div>
+                            <div class="flex-1 text-center">
+                                <h5 class="text-gray-500 flex-1">New Clients</h5>
+                                <h3 class="text-gray-900 font-bold text-3xl flex-1">25</h3>
+                            </div>
+
+                            <div class="rounded p-3 bg-red-400"></div>
+                            <div class="flex-1 text-center">
+                                <h5 class="text-gray-500">Work Orders</h5>
+                                <h3 class="text-gray-900 font-bold text-3xl">70</h3>
+                            </div>
+
+                            <div class="rounded p-3 bg-green-300"></div>
+                            <div class="flex-1 text-center">
+                                <h5 class="text-gray-500">New Invoices</h5>
+                                <h3 class="text-gray-900 font-bold text-3xl">44</h3>
+                            </div>
+
+                            <div class="rounded p-3 bg-yellow-400"></div>
+                            <div class="flex-1 text-center">
+                                <h5 class="text-gray-500">Open Cases</h5>
+                                <h3 class="text-gray-900 font-bold text-3xl">35</h3>
+                            </div>
+                        </div>        
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
